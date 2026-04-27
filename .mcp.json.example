@@ -1,0 +1,22 @@
+{
+  "_comment": "Copy to .mcp.json and replace the paths below with absolute paths for your machine. Then restart Claude Code from this directory.",
+  "_setup": [
+    "1. git clone https://github.com/mixelpixx/KiCAD-MCP-Server somewhere (e.g. ~/programming/_tools/kicad-mcp).",
+    "2. cd into it: npm install && npm run build",
+    "3. brew install --cask kicad (KiCad 9 or 10).",
+    "4. Replace the paths below with your machine's actual paths.",
+    "5. cp .mcp.json.example .mcp.json",
+    "6. Restart Claude Code; approve the project-scoped MCP server when prompted."
+  ],
+  "mcpServers": {
+    "kicad": {
+      "command": "/ABSOLUTE/PATH/TO/node",
+      "args": ["/ABSOLUTE/PATH/TO/kicad-mcp/dist/index.js"],
+      "env": {
+        "KICAD_PYTHON": "/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/bin/python3",
+        "PYTHONPATH": "/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages",
+        "LOG_LEVEL": "info"
+      }
+    }
+  }
+}
