@@ -11,7 +11,6 @@
 #include <BLE2902.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
-#include <Adafruit_NeoPixel.h>
 #include <Adafruit_INA219.h>
 #include <Preferences.h>
 
@@ -59,19 +58,12 @@ int maxSessionSeconds = 10;  // Default 10s, configurable via BLE
 #define OLED_CLK   18
 
 #define SWITCH_PIN    4
-#define NEOPIXEL_PIN  2
-#define NUM_PIXELS    8
 #define PWM_PIN       27    // PWM output for power control
 // INA219 uses I2C on GPIO 21 (SDA) and GPIO 22 (SCL)
 
 // PWM Configuration
 #define PWM_FREQ      5000  // 5 kHz
 #define PWM_RESOLUTION 8    // 8-bit (0-255)
-
-// ============================================================================
-// Configuration
-// ============================================================================
-#define LED_BRIGHTNESS       50      // 0-255
 
 // ============================================================================
 // Device States
@@ -85,7 +77,6 @@ enum DeviceState {
 // Global Objects
 // ============================================================================
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, OLED_MOSI, OLED_CLK, OLED_DC, OLED_RST, OLED_CS);
-Adafruit_NeoPixel strip(NUM_PIXELS, NEOPIXEL_PIN, NEO_GRBW + NEO_KHZ800);
 Adafruit_INA219 ina219;
 Preferences preferences;
 
@@ -449,24 +440,6 @@ void checkScreenTimeout() {
 }
 
 // ============================================================================
-// LED Functions
-// ============================================================================
-
-void setLedsIdle() {
-    for (int i = 0; i < NUM_PIXELS; i++) {
-        strip.setPixelColor(i, strip.Color(0, 0, 0, 30));
-    }
-    strip.show();
-}
-
-void setLedsFiring() {
-    for (int i = 0; i < NUM_PIXELS; i++) {
-        strip.setPixelColor(i, strip.Color(0, 255, 0, 0));
-    }
-    strip.show();
-}
-
-// ============================================================================
 // Storage Functions
 // ============================================================================
 
@@ -504,7 +477,6 @@ void enterState(DeviceState newState) {
             stateName = "idle";
             Serial.println("State: IDLE");
             ledcWrite(PWM_PIN, 0);  // PWM off
-            setLedsIdle();
             drawIdleScreen();
             break;
 
@@ -514,7 +486,6 @@ void enterState(DeviceState newState) {
             sessionStartTime = millis();
             ledcWrite(PWM_PIN, pwmValue);  // Apply PWM
             Serial.println("PWM output enabled - check GPIO 27 with multimeter");
-            setLedsFiring();
             break;
     }
 
@@ -606,12 +577,6 @@ void setup() {
     display.ssd1306_command(SSD1306_DISPLAYON);
     display.ssd1306_command(0x81);  // Set contrast command
     display.ssd1306_command(0xFF);  // Max contrast
-
-    // LEDs init
-    strip.begin();
-    strip.setBrightness(LED_BRIGHTNESS);
-    strip.show();
-    Serial.println("LEDs OK");
 
     // PWM init
     ledcAttach(PWM_PIN, PWM_FREQ, PWM_RESOLUTION);

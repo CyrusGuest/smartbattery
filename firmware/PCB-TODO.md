@@ -15,12 +15,7 @@ Punch list of decisions / part selections that aren't pinned down by the firmwar
   - Cheapest: feed VIN through the dev board's onboard LDO (handles down to ~3.6 V; below that, brownouts).
   - Note: low-cost ESP32 dev boards already have an AMS1117-3.3 onboard. If we're using a bare module, we need to add our own.
 
-- [ ] **3.3 V rail for peripherals** — OLED, INA219 logic (Vs pin), NeoPixel logic input. Almost certainly the same rail as ESP32 supply. Confirm in schematic that `INA219.Vs` is on 3.3 V, **not** on V+ (cell rail) — see HARDWARE.md note.
-
-- [ ] **NeoPixel power rail** — WS2812 wants 5 V (works dimmer at 3.7 V). 8 pixels at full white draw ~480 mA peak. Decide:
-  - Run on cell directly (3.0–4.2 V) — works, dimmer, no extra parts.
-  - Run on 5 V boost — brighter, costs a boost converter.
-  - At `LED_BRIGHTNESS = 50/255` (firmware default) the draw is much lower (~95 mA peak), so running off-cell is probably fine.
+- [ ] **3.3 V rail for peripherals** — OLED, INA219 logic (Vs pin). Almost certainly the same rail as ESP32 supply. Confirm in schematic that `INA219.Vs` is on 3.3 V, **not** on V+ (cell rail) — see HARDWARE.md note.
 
 ## Coil drive
 
@@ -41,11 +36,10 @@ Punch list of decisions / part selections that aren't pinned down by the firmwar
 
 - [ ] **Fire switch** — momentary, normally-open, pulled up to 3.3 V via internal pullup; pressing connects GPIO 4 to GND. Mechanical part needs to handle expected click count.
 - [ ] **OLED** — SSD1306 128×64, **SPI** wiring (firmware uses software SPI on GPIOs 23/18/5/17/16). Most cheap modules are I²C-only; make sure to source SPI variant or jumper-configurable.
-- [ ] **NeoPixel ring** — 8 pixels, GRBW (4-channel, not standard GRB). Sourcing GRBW rings is harder than standard RGB — confirm exact part.
 
 ## Mechanical
 
-- [ ] Enclosure — fits cell, PCB, OLED, NeoPixel ring, USB-C jack, fire switch, coil connector. Largest dimension is OLED (typically 27 × 27 mm for 128×64 modules).
+- [ ] Enclosure — fits cell, PCB, OLED, USB-C jack, fire switch, coil connector. Largest dimension is OLED (typically 27 × 27 mm for 128×64 modules).
 - [ ] USB-C jack location — on the charger module by default; if integrated, separate footprint on PCB.
 - [ ] Cell holder vs. soldered tabs — solder tabs save space, holder simplifies replacement.
 

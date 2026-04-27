@@ -10,8 +10,6 @@ Reconstructed from `firmware/smartbattery.ino`. The firmware is the only authori
                        │                              │
    3-pin switch ──────▶│ GPIO 4   (INPUT_PULLUP)      │
    (fire button)       │                              │
-                       │ GPIO 2  ───▶ NeoPixel DIN ───┼──▶ 8-pixel WS2812 ring (GRBW)
-                       │                              │
                        │ GPIO 27 ───▶ MOSFET gate ────┼──▶ Vape coil
                        │            (5 kHz, 8-bit)    │     │
                        │                              │     │
@@ -33,7 +31,6 @@ Reconstructed from `firmware/smartbattery.ino`. The firmware is the only authori
 
 | GPIO | Dir   | Net           | Peripheral / notes                               |
 | ---- | ----- | ------------- | ------------------------------------------------ |
-| 2    | OUT   | NEOPIXEL_DIN  | 8 × WS2812 (`NEO_GRBW + NEO_KHZ800`), 50/255 br. |
 | 4    | IN    | SWITCH        | `INPUT_PULLUP`; LOW = pressed (fire)             |
 | 5    | OUT   | OLED_CS       | SSD1306 SPI chip select                          |
 | 16   | OUT   | OLED_RST      | SSD1306 reset                                    |
@@ -88,7 +85,7 @@ The INA219 sits in the cell+ lead. **Everything** — both the loads and the Typ
                 └───────────────┘    │     (CC/CV charge, off-the-shelf)
                                      ├──▶ ESP32 (VIN via boost, assumed)
                                      ├──▶ MOSFET drain → coil
-                                     └──▶ 3.3 V LDO → OLED, INA219 logic, NeoPixel logic
+                                     └──▶ 3.3 V LDO → OLED, INA219 logic
 
    Cell − ──────────────────────────── GND (common)
 ```
@@ -103,7 +100,6 @@ The INA219 sits in the cell+ lead. **Everything** — both the loads and the Typ
 - Boost converter part for ESP32 supply (cell can drop to ~3.0 V; ESP32 wants 3.3 V regulated)
 - Type-C charger module exact part number + whether it has integrated protection or needs a separate DW01-style protection IC
 - MOSFET part + gate resistor + flyback handling
-- Whether NeoPixel runs on the boost rail (5 V preferred) or directly off-cell (works at 3.7 V, dimmer)
 
 ## BLE GATT contract
 
