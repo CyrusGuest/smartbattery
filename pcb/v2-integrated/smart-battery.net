@@ -1,0 +1,2224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/cyrusguest/programming/smart-battery/pcb/v2-integrated/smart-battery.kicad_sch</source>
+    <date>2026-04-30T16:33:01</date>
+    <tool>Eeschema 10.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>smart-battery.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">CL10A106KQ8NNNC</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="LCSC">C19702</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="MFR_PN" value="CL10A106KQ8NNNC"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="LCSC" value="C19702"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae504422-eac0-4526-a27b-55685f2bea2d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">CL10A106KQ8NNNC</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="LCSC">C19702</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="MFR_PN" value="CL10A106KQ8NNNC"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="LCSC" value="C19702"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49ee418c-91e7-4af9-81c5-4758e316fd54</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">CL10B104KB8NNNC</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="LCSC">C1525</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="MFR_PN" value="CL10B104KB8NNNC"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abc199a4-eacd-475d-97ad-ec1a1e33b768</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">CL10B104KB8NNNC</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="LCSC">C1525</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="MFR_PN" value="CL10B104KB8NNNC"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5666948f-d4b0-4ce0-9b6e-54b60c75511d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">CL10A106KQ8NNNC</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="LCSC">C19702</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="MFR_PN" value="CL10A106KQ8NNNC"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="LCSC" value="C19702"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17d38da9-63f9-466c-ac2c-87dd251f46d1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MFR_PN">CL21A226MAYNNNE</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="LCSC">C45783</field>
+        <field name="PKG_TYPE">0805</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="MFR_PN" value="CL21A226MAYNNNE"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="LCSC" value="C45783"/>
+      <property name="PKG_TYPE" value="0805"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7e876a8-4e88-4260-9249-16edef85e9fa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">CL10A106KQ8NNNC</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="LCSC">C19702</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="MFR_PN" value="CL10A106KQ8NNNC"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="LCSC" value="C19702"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>020ad3a5-2843-4859-aa0c-223095521ac4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">CL10B104KB8NNNC</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="LCSC">C1525</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="MFR_PN" value="CL10B104KB8NNNC"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="LCSC" value="C1525"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5105143e-12c8-4f01-83f4-300160f04e43</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">CL10B105KB8NNNC</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="LCSC">C15849</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="MFR_PN" value="CL10B105KB8NNNC"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="LCSC" value="C15849"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9383f2e0-4a78-44e3-a3f7-11a0dff84c55</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>100uF (bulk)</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="MFR_PN">CL32A107MQVNNNE</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="LCSC">C13585</field>
+        <field name="PKG_TYPE">1210</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="MFR_PN" value="CL32A107MQVNNNE"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="LCSC" value="C13585"/>
+      <property name="PKG_TYPE" value="1210"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>420673ce-36a7-4dbd-b37d-549539a7492f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>SS34</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="MFR_PN">SS34</field>
+        <field name="Manufacturer">MDD</field>
+        <field name="LCSC">C8678</field>
+        <field name="PKG_TYPE">SMA</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Diode" part="SS34" description="40V 3A Schottky Diode, SMA"/>
+      <property name="MFR_PN" value="SS34"/>
+      <property name="Manufacturer" value="MDD"/>
+      <property name="LCSC" value="C8678"/>
+      <property name="PKG_TYPE" value="SMA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="D*SMA*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f9757e3-5acb-4489-99ae-44424be1a449</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>USBLC6-2SC6</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="MFR_PN">USBLC6-2SC6</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="LCSC">C7519</field>
+        <field name="PKG_TYPE">SOT-23-6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Power_Protection" part="USBLC6-2SC6" description="Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"/>
+      <property name="MFR_PN" value="USBLC6-2SC6"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="LCSC" value="C7519"/>
+      <property name="PKG_TYPE" value="SOT-23-6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <property name="ki_keywords" value="usb ethernet video"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>485ec63c-383d-4a81-a2cc-ccdb67e8025d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>USB-C</value>
+      <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <fields>
+        <field name="MFR_PN">TYPE-C-31-M-12</field>
+        <field name="Manufacturer">HRO</field>
+        <field name="LCSC">C165948</field>
+        <field name="PKG_TYPE">USB-C 16-pin SMD</field>
+        <field name="Footprint">Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0_16P" description="USB 2.0-only 16P Type-C Receptacle connector"/>
+      <property name="MFR_PN" value="TYPE-C-31-M-12"/>
+      <property name="Manufacturer" value="HRO"/>
+      <property name="LCSC" value="C165948"/>
+      <property name="PKG_TYPE" value="USB-C 16-pin SMD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <property name="ki_fp_filters" value="USB*C*Receptacle*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>135866eb-5ebd-469f-841d-5134ef79999d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="SH"/>
+            <pin num="A1"/>
+            <pin num="A12"/>
+            <pin num="B1"/>
+            <pin num="B12"/>
+            <pin num="A4"/>
+            <pin num="A9"/>
+            <pin num="B4"/>
+            <pin num="B9"/>
+            <pin num="A5"/>
+            <pin num="B5"/>
+            <pin num="A7"/>
+            <pin num="B7"/>
+            <pin num="A6"/>
+            <pin num="B6"/>
+            <pin num="A8"/>
+            <pin num="B8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>OLED 0.96 SPI castellated</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MFR_PN">OLED-0.96-CASTL-7P</field>
+        <field name="Manufacturer">Generic (sourced)</field>
+        <field name="LCSC"/>
+        <field name="PKG_TYPE">Castellated 1x7</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x07" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR_PN" value="OLED-0.96-CASTL-7P"/>
+      <property name="Manufacturer" value="Generic (sourced)"/>
+      <property name="LCSC" value=""/>
+      <property name="PKG_TYPE" value="Castellated 1x7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05afa674-f001-4d26-a9c5-e0cd436c93ec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>LiPo 603450 (JST-PH)</value>
+      <footprint>Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</footprint>
+      <fields>
+        <field name="MFR_PN">S2B-PH-SM4-TB(LF)</field>
+        <field name="Manufacturer">JST</field>
+        <field name="LCSC">C265084</field>
+        <field name="PKG_TYPE">JST-PH SMD 1x2</field>
+        <field name="Footprint">Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="MFR_PN" value="S2B-PH-SM4-TB(LF)"/>
+      <property name="Manufacturer" value="JST"/>
+      <property name="LCSC" value="C265084"/>
+      <property name="PKG_TYPE" value="JST-PH SMD 1x2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da3f022a-c31c-4611-b7f4-0a51ba7a7230</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>Coil 510 (TBD)</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MFR_PN">510-CONNECTOR-TBD</field>
+        <field name="Manufacturer">TBD</field>
+        <field name="LCSC"/>
+        <field name="PKG_TYPE">TBD (510 thread)</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description=""/>
+      <property name="MFR_PN" value="510-CONNECTOR-TBD"/>
+      <property name="Manufacturer" value="TBD"/>
+      <property name="LCSC" value=""/>
+      <property name="PKG_TYPE" value="TBD (510 thread)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d85a4a40-fe7f-4eae-bbea-c2c910e6656c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>DEBUG (TX0/RX0/IO0/EN/GND)</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MFR_PN">TEST-PAD-1x5</field>
+        <field name="Manufacturer">n/a</field>
+        <field name="LCSC"/>
+        <field name="PKG_TYPE">Test pads 1x5</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR_PN" value="TEST-PAD-1x5"/>
+      <property name="Manufacturer" value="n/a"/>
+      <property name="LCSC" value=""/>
+      <property name="PKG_TYPE" value="Test pads 1x5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bc8a65b-e0c6-4971-b196-397d6245b17e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>1.5uH</value>
+      <footprint>Inductor_SMD:L_1210_3225Metric</footprint>
+      <fields>
+        <field name="MFR_PN">MWSA1210SR-1R5MTAH</field>
+        <field name="Manufacturer">Sunlord</field>
+        <field name="LCSC">C133988</field>
+        <field name="PKG_TYPE">1210</field>
+        <field name="Footprint">Inductor_SMD:L_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="L" description=""/>
+      <property name="MFR_PN" value="MWSA1210SR-1R5MTAH"/>
+      <property name="Manufacturer" value="Sunlord"/>
+      <property name="LCSC" value="C133988"/>
+      <property name="PKG_TYPE" value="1210"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45899338-101a-435d-9e1c-7ae4c15f163b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LED1">
+      <value>CHRG (red)</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">KT-0603R</field>
+        <field name="Manufacturer">Hubei KENTO</field>
+        <field name="LCSC">C2286</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description=""/>
+      <property name="MFR_PN" value="KT-0603R"/>
+      <property name="Manufacturer" value="Hubei KENTO"/>
+      <property name="LCSC" value="C2286"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19aa54e6-fec8-4a5b-9616-6b1d5f68b464</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="LED2">
+      <value>STDBY (green)</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">KT-0603G</field>
+        <field name="Manufacturer">Hubei KENTO</field>
+        <field name="LCSC">C2297</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description=""/>
+      <property name="MFR_PN" value="KT-0603G"/>
+      <property name="Manufacturer" value="Hubei KENTO"/>
+      <property name="LCSC" value="C2297"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>049454ee-dbbc-4f9f-aaf1-e616a2f9e230</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3400A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="MFR_PN">AO3400A</field>
+        <field name="Manufacturer">Alpha &amp; Omega</field>
+        <field name="LCSC">C20917</field>
+        <field name="PKG_TYPE">SOT-23</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Transistor_FET" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="MFR_PN" value="AO3400A"/>
+      <property name="Manufacturer" value="Alpha &amp; Omega"/>
+      <property name="LCSC" value="C20917"/>
+      <property name="PKG_TYPE" value="SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c74c1487-85ab-4ab4-9b19-45cf0f32a577</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">RC0603FR-075K1L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="LCSC">C23186</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description=""/>
+      <property name="MFR_PN" value="RC0603FR-075K1L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="LCSC" value="C23186"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8e01b79-2d06-48b7-89d3-b365d14ca2fe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">RC0603FR-075K1L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="LCSC">C23186</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description=""/>
+      <property name="MFR_PN" value="RC0603FR-075K1L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="LCSC" value="C23186"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b91e856a-0654-4031-8fd0-cfe4fcca907d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">RC0603FR-071K2L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="LCSC">C22849</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description=""/>
+      <property name="MFR_PN" value="RC0603FR-071K2L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="LCSC" value="C22849"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aac7d7ba-7b47-45c7-9409-ed8192acf1be</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">RC0603FR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="LCSC">C21190</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description=""/>
+      <property name="MFR_PN" value="RC0603FR-071KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9084f595-4788-4f82-8a03-73ea3f3c06be</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">RC0603FR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="LCSC">C21190</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description=""/>
+      <property name="MFR_PN" value="RC0603FR-071KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31d4cfc4-177c-4125-9d91-fd6ec8c2831e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">RC0603FR-07100RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="LCSC">C22775</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description=""/>
+      <property name="MFR_PN" value="RC0603FR-07100RL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="LCSC" value="C22775"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5a22415-3b33-482e-bb29-dc26c4de1ff3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">RC0603FR-071KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="LCSC">C21190</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description=""/>
+      <property name="MFR_PN" value="RC0603FR-071KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="LCSC" value="C21190"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e34a1e7-23a5-44c8-a20d-b2f7eaa412bd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>0.1 2W</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <fields>
+        <field name="MFR_PN">PE2512FKE070R1L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="LCSC">C84395</field>
+        <field name="PKG_TYPE">2512</field>
+        <field name="Footprint">Resistor_SMD:R_2512_6332Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description=""/>
+      <property name="MFR_PN" value="PE2512FKE070R1L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="LCSC" value="C84395"/>
+      <property name="PKG_TYPE" value="2512"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0db7193-d8a6-4e65-9561-f527aabf3584</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">RC0603FR-074K7L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="LCSC">C23162</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description=""/>
+      <property name="MFR_PN" value="RC0603FR-074K7L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="LCSC" value="C23162"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a80485fc-6886-42cb-8266-d0d8f430876b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">RC0603FR-074K7L</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="LCSC">C23162</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description=""/>
+      <property name="MFR_PN" value="RC0603FR-074K7L"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="LCSC" value="C23162"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b77f66c-ff24-4b27-acbc-35caa4f2aee9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="LCSC">C25804</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description=""/>
+      <property name="MFR_PN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>811cca91-ae61-4a82-a6dd-672d2963414b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">RC0603FR-0710KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="LCSC">C25804</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description=""/>
+      <property name="MFR_PN" value="RC0603FR-0710KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0825e43c-2feb-46a9-b1f1-3a27e07debd3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>220</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">RC0603FR-07220RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="LCSC">C22962</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description=""/>
+      <property name="MFR_PN" value="RC0603FR-07220RL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="LCSC" value="C22962"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47d3b5c0-9f8d-4a89-be89-2d206c87266d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MFR_PN">RC0603FR-07100KL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="LCSC">C25741</field>
+        <field name="PKG_TYPE">0603</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description=""/>
+      <property name="MFR_PN" value="RC0603FR-07100KL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="LCSC" value="C25741"/>
+      <property name="PKG_TYPE" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81b39302-5b47-4fa7-8c66-58ffcb8025e7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>Fire</value>
+      <footprint>Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA</footprint>
+      <fields>
+        <field name="MFR_PN">EVQ-PUJ02K</field>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="LCSC">C77890</field>
+        <field name="PKG_TYPE">6x6 SMD</field>
+        <field name="Footprint">Button_Switch_SMD:Panasonic_EVQPUJ_EVQPUA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description=""/>
+      <property name="MFR_PN" value="EVQ-PUJ02K"/>
+      <property name="Manufacturer" value="Panasonic"/>
+      <property name="LCSC" value="C77890"/>
+      <property name="PKG_TYPE" value="6x6 SMD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>09cfbfb5-d4e9-445e-bf45-64ed6b8346d9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-S3-MINI-1-N4</value>
+      <footprint>Espressif:ESP32-S3-MINI-1</footprint>
+      <fields>
+        <field name="MFR_PN">ESP32-S3-MINI-1-N4</field>
+        <field name="Manufacturer">Espressif</field>
+        <field name="LCSC">C2913200</field>
+        <field name="PKG_TYPE">LGA-65</field>
+        <field name="Footprint">Espressif:ESP32-S3-MINI-1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_Module" part="ESP32-S3-MINI-1" description="RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, SMD, onboard antenna"/>
+      <property name="MFR_PN" value="ESP32-S3-MINI-1-N4"/>
+      <property name="Manufacturer" value="Espressif"/>
+      <property name="LCSC" value="C2913200"/>
+      <property name="PKG_TYPE" value="LGA-65"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <property name="ki_keywords" value="RF Radio BT ESP ESP32-S3 Espressif"/>
+      <property name="ki_fp_filters" value="ESP32?S*MINI?1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4752767-25b6-4401-82a6-69fa42cdb325</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="45"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="3"/>
+            <pin num="65"/>
+            <pin num="2"/>
+            <pin num="54"/>
+            <pin num="53"/>
+            <pin num="52"/>
+            <pin num="64"/>
+            <pin num="51"/>
+            <pin num="50"/>
+            <pin num="63"/>
+            <pin num="49"/>
+            <pin num="48"/>
+            <pin num="1"/>
+            <pin num="62"/>
+            <pin num="61"/>
+            <pin num="60"/>
+            <pin num="59"/>
+            <pin num="58"/>
+            <pin num="56"/>
+            <pin num="47"/>
+            <pin num="57"/>
+            <pin num="42"/>
+            <pin num="43"/>
+            <pin num="46"/>
+            <pin num="55"/>
+            <pin num="39"/>
+            <pin num="40"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="33"/>
+            <pin num="34"/>
+            <pin num="35"/>
+            <pin num="36"/>
+            <pin num="37"/>
+            <pin num="38"/>
+            <pin num="41"/>
+            <pin num="44"/>
+            <pin num="27"/>
+            <pin num="30"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>TP4056</value>
+      <footprint>Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias</footprint>
+      <fields>
+        <field name="MFR_PN">TP4056-42-ESOP8</field>
+        <field name="Manufacturer">Nanjing Top Power</field>
+        <field name="LCSC">C16581</field>
+        <field name="PKG_TYPE">ESOP-8</field>
+        <field name="Footprint">Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Battery_Management" part="TP4056-42-ESOP8" description="1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)"/>
+      <property name="MFR_PN" value="TP4056-42-ESOP8"/>
+      <property name="Manufacturer" value="Nanjing Top Power"/>
+      <property name="LCSC" value="C16581"/>
+      <property name="PKG_TYPE" value="ESOP-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <property name="ki_keywords" value="lithium-ion lithium-polymer Li-Poly"/>
+      <property name="ki_fp_filters" value="*SO*3.9x4.*P1.27mm*EP2.4*x3.3*mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0de2909-6041-4d30-baac-f2d02587b584</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="9"/>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>DW01A (placeholder)</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="MFR_PN">DW01A</field>
+        <field name="Manufacturer">Fortune Semi</field>
+        <field name="LCSC">C351410</field>
+        <field name="PKG_TYPE">SOT-23-6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR_PN" value="DW01A"/>
+      <property name="Manufacturer" value="Fortune Semi"/>
+      <property name="LCSC" value="C351410"/>
+      <property name="PKG_TYPE" value="SOT-23-6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bf82104-bde2-4b2b-b3a5-a5c74c0f4d85</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>FS8205A (placeholder)</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="MFR_PN">FS8205A</field>
+        <field name="Manufacturer">Fortune Semi</field>
+        <field name="LCSC">C32254</field>
+        <field name="PKG_TYPE">SOT-23-6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR_PN" value="FS8205A"/>
+      <property name="Manufacturer" value="Fortune Semi"/>
+      <property name="LCSC" value="C32254"/>
+      <property name="PKG_TYPE" value="SOT-23-6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bfce113-fee8-4b0f-b778-e9988ee0916e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>INA219AIDR</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="MFR_PN">INA219AIDR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="LCSC">C138563</field>
+        <field name="PKG_TYPE">SOIC-8</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Sensor_Energy" part="INA219AxD" description="Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8"/>
+      <property name="MFR_PN" value="INA219AIDR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="LCSC" value="C138563"/>
+      <property name="PKG_TYPE" value="SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <property name="ki_keywords" value="ADC I2C 16-Bit Oversampling Current Shunt"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x4.9mm*P1.27mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52c0d18c-cf03-43b1-8b05-2ce22e29c7ba</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>TPS63031DSK</value>
+      <footprint>Package_DFN_QFN:Texas_DSQ0010A_WSON-10-1EP_2x2mm_P0.4mm_EP0.9x1.5mm</footprint>
+      <fields>
+        <field name="MFR_PN">TPS63031DSKR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="LCSC">C57898</field>
+        <field name="PKG_TYPE">WSON-10</field>
+        <field name="Footprint">Package_DFN_QFN:Texas_DSQ0010A_WSON-10-1EP_2x2mm_P0.4mm_EP0.9x1.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TPS63031DSK" description="Buck-Boost Converter, 1.8-5.5V Input Voltage, 1A Switch Current, 3.3V Output Voltage, VSON-10 (DSK0010A)"/>
+      <property name="MFR_PN" value="TPS63031DSKR"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="LCSC" value="C57898"/>
+      <property name="PKG_TYPE" value="WSON-10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="smart-battery.kicad_sch"/>
+      <property name="ki_keywords" value="Buck-Boost fixed 3.3V converter"/>
+      <property name="ki_fp_filters" value="WSON*1EP*2.5x2.5mm*P0.5mm*EP1.2x2mm*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dca02208-f317-403c-b976-23d6fe191f78</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="5"/>
+            <pin num="8"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="4"/>
+            <pin num="2"/>
+            <pin num="9"/>
+            <pin num="3"/>
+            <pin num="11"/>
+            <pin num="1"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Battery_Management" part="TP4056-42-ESOP8">
+      <description>1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)</description>
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf</docs>
+      <footprints>
+        <fp>*SO*3.9x4.*P1.27mm*EP2.4*x3.3*mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TP4056-42-ESOP8</field>
+        <field name="Footprint">Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm_ThermalVias</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2410121619_TOPPOWER-Nanjing-Extension-Microelectronics-TP4056-42-ESOP8_C16581.pdf</field>
+        <field name="Description">1A Standalone Linear Li-ion/LiPo single-cell battery charger, 4.2V ±1% charge voltage, VCC = 4.0..8.0V, SOIC-8 (SOP-8)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEMP" type="input"/>
+        <pin num="2" name="PROG" type="passive"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="V_{CC}" type="power_in"/>
+        <pin num="5" name="BAT" type="power_out"/>
+        <pin num="6" name="~{STDBY}" type="open_collector"/>
+        <pin num="7" name="~{CHRG}" type="open_collector"/>
+        <pin num="8" name="CE" type="input"/>
+        <pin num="9" name="EPAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0_16P">
+      <description>USB 2.0-only 16P Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0_16P</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+        <field name="Description">USB 2.0-only 16P Type-C Receptacle connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="SH" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x07">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="SS34">
+      <description>40V 3A Schottky Diode, SMA</description>
+      <docs>https://www.vishay.com/docs/88751/ss32.pdf</docs>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS34</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+        <field name="Datasheet">https://www.vishay.com/docs/88751/ss32.pdf</field>
+        <field name="Description">40V 3A Schottky Diode, SMA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="USBLC6-2SC6">
+      <description>Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</description>
+      <docs>https://www.st.com/resource/en/datasheet/usblc6-2.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USBLC6-2SC6</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/usblc6-2.pdf</field>
+        <field name="Description">Very low capacitance ESD protection diode, 2 data-line, SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="I/O2" type="passive"/>
+        <pin num="5" name="VBUS" type="passive"/>
+        <pin num="6" name="I/O1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP32-S3-MINI-1">
+      <description>RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, SMD, onboard antenna</description>
+      <docs>https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf</docs>
+      <footprints>
+        <fp>ESP32?S*MINI?1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-S3-MINI-1</field>
+        <field name="Footprint">RF_Module:ESP32-S2-MINI-1</field>
+        <field name="Datasheet">https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf</field>
+        <field name="Description">RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, SMD, onboard antenna</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="3V3" type="power_in"/>
+        <pin num="4" name="IO0" type="bidirectional"/>
+        <pin num="5" name="IO1" type="bidirectional"/>
+        <pin num="6" name="IO2" type="bidirectional"/>
+        <pin num="7" name="IO3" type="bidirectional"/>
+        <pin num="8" name="IO4" type="bidirectional"/>
+        <pin num="9" name="IO5" type="bidirectional"/>
+        <pin num="10" name="IO6" type="bidirectional"/>
+        <pin num="11" name="IO7" type="bidirectional"/>
+        <pin num="12" name="IO8" type="bidirectional"/>
+        <pin num="13" name="IO9" type="bidirectional"/>
+        <pin num="14" name="IO10" type="bidirectional"/>
+        <pin num="15" name="IO11" type="bidirectional"/>
+        <pin num="16" name="IO12" type="bidirectional"/>
+        <pin num="17" name="IO13" type="bidirectional"/>
+        <pin num="18" name="IO14" type="bidirectional"/>
+        <pin num="19" name="IO15" type="bidirectional"/>
+        <pin num="20" name="IO16" type="bidirectional"/>
+        <pin num="21" name="IO17" type="bidirectional"/>
+        <pin num="22" name="IO18" type="bidirectional"/>
+        <pin num="23" name="USB_D-" type="bidirectional"/>
+        <pin num="24" name="USB_D+" type="bidirectional"/>
+        <pin num="25" name="IO21" type="bidirectional"/>
+        <pin num="26" name="IO26" type="bidirectional"/>
+        <pin num="27" name="IO47" type="bidirectional"/>
+        <pin num="28" name="IO33" type="bidirectional"/>
+        <pin num="29" name="IO34" type="bidirectional"/>
+        <pin num="30" name="IO48" type="bidirectional"/>
+        <pin num="31" name="IO35" type="bidirectional"/>
+        <pin num="32" name="IO36" type="bidirectional"/>
+        <pin num="33" name="IO37" type="bidirectional"/>
+        <pin num="34" name="IO38" type="bidirectional"/>
+        <pin num="35" name="IO39" type="bidirectional"/>
+        <pin num="36" name="IO40" type="bidirectional"/>
+        <pin num="37" name="IO41" type="bidirectional"/>
+        <pin num="38" name="IO42" type="bidirectional"/>
+        <pin num="39" name="TXD0" type="bidirectional"/>
+        <pin num="40" name="RXD0" type="bidirectional"/>
+        <pin num="41" name="IO45" type="bidirectional"/>
+        <pin num="42" name="GND" type="passive"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="IO46" type="bidirectional"/>
+        <pin num="45" name="EN" type="input"/>
+        <pin num="46" name="GND" type="passive"/>
+        <pin num="47" name="GND" type="passive"/>
+        <pin num="48" name="GND" type="passive"/>
+        <pin num="49" name="GND" type="passive"/>
+        <pin num="50" name="GND" type="passive"/>
+        <pin num="51" name="GND" type="passive"/>
+        <pin num="52" name="GND" type="passive"/>
+        <pin num="53" name="GND" type="passive"/>
+        <pin num="54" name="GND" type="passive"/>
+        <pin num="55" name="GND" type="passive"/>
+        <pin num="56" name="GND" type="passive"/>
+        <pin num="57" name="GND" type="passive"/>
+        <pin num="58" name="GND" type="passive"/>
+        <pin num="59" name="GND" type="passive"/>
+        <pin num="60" name="GND" type="passive"/>
+        <pin num="61" name="GND" type="passive"/>
+        <pin num="62" name="GND" type="passive"/>
+        <pin num="63" name="GND" type="passive"/>
+        <pin num="64" name="GND" type="passive"/>
+        <pin num="65" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS63031DSK">
+      <description>Buck-Boost Converter, 1.8-5.5V Input Voltage, 1A Switch Current, 3.3V Output Voltage, VSON-10 (DSK0010A)</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps63031.pdf</docs>
+      <footprints>
+        <fp>WSON*1EP*2.5x2.5mm*P0.5mm*EP1.2x2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS63031DSK</field>
+        <field name="Footprint">Package_SON:WSON-10-1EP_2.5x2.5mm_P0.5mm_EP1.2x2mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps63031.pdf</field>
+        <field name="Description">Buck-Boost Converter, 1.8-5.5V Input Voltage, 1A Switch Current, 3.3V Output Voltage, VSON-10 (DSK0010A)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOUT" type="power_out"/>
+        <pin num="2" name="L2" type="input"/>
+        <pin num="3" name="PGND" type="power_in"/>
+        <pin num="4" name="L1" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+        <pin num="6" name="EN" type="input"/>
+        <pin num="7" name="PS/SYNC" type="input"/>
+        <pin num="8" name="VINA" type="passive"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="FB" type="input"/>
+        <pin num="11" name="PGND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Energy" part="INA219AxD">
+      <description>Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ina219.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">INA219AxD</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ina219.pdf</field>
+        <field name="Description">Zero-Drift, Bidirectional Current/Power Monitor (0-26V) With I2C Interface, SOIC-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="SDA" type="bidirectional"/>
+        <pin num="4" name="SCL" type="input"/>
+        <pin num="5" name="VS" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="IN-" type="input"/>
+        <pin num="8" name="IN+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="AO3400A">
+      <description>30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3400A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+        <field name="Description">30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Battery_Management">
+      <uri>${KICAD10_SYMBOL_DIR}/Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>${KICAD10_SYMBOL_DIR}/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>${KICAD10_SYMBOL_DIR}/Power_Protection.kicad_sym</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>${KICAD10_SYMBOL_DIR}/RF_Module.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>${KICAD10_SYMBOL_DIR}/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Energy">
+      <uri>${KICAD10_SYMBOL_DIR}/Sensor_Energy.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>${KICAD10_SYMBOL_DIR}/Switch.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>${KICAD10_SYMBOL_DIR}/Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3V3" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="3V3_3" pintype="power_in"/>
+      <node ref="U5" pin="5" pinfunction="VS_5" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="VOUT_1" pintype="power_out"/>
+      <node ref="U6" pin="10" pinfunction="FB_10" pintype="input"/>
+    </net>
+    <net code="2" name="/+CELL" class="Default">
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="IN+_8" pintype="input"/>
+    </net>
+    <net code="3" name="/+SYS" class="Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="BAT_5" pintype="power_out"/>
+      <node ref="U5" pin="7" pinfunction="IN-_7" pintype="input"/>
+      <node ref="U6" pin="5" pinfunction="VIN_5" pintype="power_in"/>
+      <node ref="U6" pin="6" pinfunction="EN_6" pintype="input"/>
+      <node ref="U6" pin="8" pinfunction="VINA_8" pintype="passive"/>
+    </net>
+    <net code="4" name="/BAT_NEG" class="Default">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="5" name="/CC1" class="Default">
+      <node ref="J1" pin="A5" pinfunction="CC1_A5" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/CC2" class="Default">
+      <node ref="J1" pin="B5" pinfunction="CC2_B5" pintype="bidirectional"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/CHRG" class="Default">
+      <node ref="LED1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="~{CHRG}_7" pintype="open_collector"/>
+    </net>
+    <net code="8" name="/CHRG_LED" class="Default">
+      <node ref="LED1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="/COIL_GATE" class="Default">
+      <node ref="Q1" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/COIL_LOW" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="11" name="/COIL_PWM" class="Default">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="IO6_10" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/DW01_OC" class="Default">
+      <node ref="U3" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+    </net>
+    <net code="13" name="/DW01_OD" class="Default">
+      <node ref="U3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="14" name="/DW01_VDD" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+    </net>
+    <net code="15" name="/DW01_VM" class="Default">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="16" name="/ESP_EN" class="Default">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="45" pinfunction="EN_45" pintype="input"/>
+    </net>
+    <net code="17" name="/ESP_IO0" class="Default">
+      <node ref="J5" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="IO0_4" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND_A1" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND_A12" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND_B1" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND_B12" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="GND_42" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="GND_43" pintype="passive"/>
+      <node ref="U1" pin="46" pinfunction="GND_46" pintype="passive"/>
+      <node ref="U1" pin="47" pinfunction="GND_47" pintype="passive"/>
+      <node ref="U1" pin="48" pinfunction="GND_48" pintype="passive"/>
+      <node ref="U1" pin="49" pinfunction="GND_49" pintype="passive"/>
+      <node ref="U1" pin="50" pinfunction="GND_50" pintype="passive"/>
+      <node ref="U1" pin="51" pinfunction="GND_51" pintype="passive"/>
+      <node ref="U1" pin="52" pinfunction="GND_52" pintype="passive"/>
+      <node ref="U1" pin="53" pinfunction="GND_53" pintype="passive"/>
+      <node ref="U1" pin="54" pinfunction="GND_54" pintype="passive"/>
+      <node ref="U1" pin="55" pinfunction="GND_55" pintype="passive"/>
+      <node ref="U1" pin="56" pinfunction="GND_56" pintype="passive"/>
+      <node ref="U1" pin="57" pinfunction="GND_57" pintype="passive"/>
+      <node ref="U1" pin="58" pinfunction="GND_58" pintype="passive"/>
+      <node ref="U1" pin="59" pinfunction="GND_59" pintype="passive"/>
+      <node ref="U1" pin="60" pinfunction="GND_60" pintype="passive"/>
+      <node ref="U1" pin="61" pinfunction="GND_61" pintype="passive"/>
+      <node ref="U1" pin="62" pinfunction="GND_62" pintype="passive"/>
+      <node ref="U1" pin="63" pinfunction="GND_63" pintype="passive"/>
+      <node ref="U1" pin="64" pinfunction="GND_64" pintype="passive"/>
+      <node ref="U1" pin="65" pinfunction="GND_65" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="TEMP_1" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="EPAD_9" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="A1_1" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="A0_2" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="GND_6" pintype="power_in"/>
+      <node ref="U6" pin="11" pinfunction="PGND_11" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="PGND_3" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="PS/SYNC_7" pintype="input"/>
+      <node ref="U6" pin="9" pinfunction="GND_9" pintype="power_in"/>
+    </net>
+    <net code="19" name="/OLED_CLK" class="Default">
+      <node ref="J2" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="IO18_22" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/OLED_CS" class="Default">
+      <node ref="J2" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="IO5_9" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/OLED_DC" class="Default">
+      <node ref="J2" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="IO17_21" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/OLED_MOSI" class="Default">
+      <node ref="J2" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="IO11_15" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/OLED_RST" class="Default">
+      <node ref="J2" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="IO16_20" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/PROG" class="Default">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="PROG_2" pintype="passive"/>
+    </net>
+    <net code="25" name="/RXD0" class="Default">
+      <node ref="J5" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="RXD0_40" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/SCL" class="Default">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="IO9_13" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pinfunction="SCL_4" pintype="input"/>
+    </net>
+    <net code="27" name="/SDA" class="Default">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="IO8_12" pintype="bidirectional"/>
+      <node ref="U5" pin="3" pinfunction="SDA_3" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/STDBY" class="Default">
+      <node ref="LED2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="~{STDBY}_6" pintype="open_collector"/>
+    </net>
+    <net code="29" name="/STDBY_LED" class="Default">
+      <node ref="LED2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="/SWITCH" class="Default">
+      <node ref="SW1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="IO4_8" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/SW_L1" class="Default">
+      <node ref="L1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U6" pin="4" pinfunction="L1_4" pintype="input"/>
+    </net>
+    <net code="32" name="/SW_L2" class="Default">
+      <node ref="L1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="L2_2" pintype="input"/>
+    </net>
+    <net code="33" name="/TXD0" class="Default">
+      <node ref="J5" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="TXD0_39" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/USB_DN" class="Default">
+      <node ref="D2" pin="4" pinfunction="I/O2_4" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="USB_D-_23" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/USB_DN_RAW" class="Default">
+      <node ref="D2" pin="3" pinfunction="I/O2_3" pintype="passive"/>
+      <node ref="J1" pin="A7" pinfunction="D-_A7" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-_B7" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/USB_DP" class="Default">
+      <node ref="D2" pin="6" pinfunction="I/O1_6" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="USB_D+_24" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/USB_DP_RAW" class="Default">
+      <node ref="D2" pin="1" pinfunction="I/O1_1" pintype="passive"/>
+      <node ref="J1" pin="A6" pinfunction="D+_A6" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+_B6" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/VBUS" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D2" pin="5" pinfunction="VBUS_5" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS_A4" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS_A9" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS_B4" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS_B9" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="V_{CC}_4" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="CE_8" pintype="input"/>
+    </net>
+    <net code="39" name="unconnected-(J1-SBU1-PadA8)" class="Default">
+      <node ref="J1" pin="A8" pinfunction="SBU1_A8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(J1-SBU2-PadB8)" class="Default">
+      <node ref="J1" pin="B8" pinfunction="SBU2_B8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(J1-SHIELD-PadSH)" class="Default">
+      <node ref="J1" pin="SH" pinfunction="SHIELD_SH" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-IO1-Pad5)" class="Default">
+      <node ref="U1" pin="5" pinfunction="IO1_5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-IO2-Pad6)" class="Default">
+      <node ref="U1" pin="6" pinfunction="IO2_6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-IO3-Pad7)" class="Default">
+      <node ref="U1" pin="7" pinfunction="IO3_7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-IO7-Pad11)" class="Default">
+      <node ref="U1" pin="11" pinfunction="IO7_11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-IO10-Pad14)" class="Default">
+      <node ref="U1" pin="14" pinfunction="IO10_14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-IO12-Pad16)" class="Default">
+      <node ref="U1" pin="16" pinfunction="IO12_16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-IO13-Pad17)" class="Default">
+      <node ref="U1" pin="17" pinfunction="IO13_17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-IO14-Pad18)" class="Default">
+      <node ref="U1" pin="18" pinfunction="IO14_18" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1-IO15-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="IO15_19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1-IO21-Pad25)" class="Default">
+      <node ref="U1" pin="25" pinfunction="IO21_25" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1-IO26-Pad26)" class="Default">
+      <node ref="U1" pin="26" pinfunction="IO26_26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1-IO33-Pad28)" class="Default">
+      <node ref="U1" pin="28" pinfunction="IO33_28" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U1-IO34-Pad29)" class="Default">
+      <node ref="U1" pin="29" pinfunction="IO34_29" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U1-IO35-Pad31)" class="Default">
+      <node ref="U1" pin="31" pinfunction="IO35_31" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U1-IO36-Pad32)" class="Default">
+      <node ref="U1" pin="32" pinfunction="IO36_32" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U1-IO37-Pad33)" class="Default">
+      <node ref="U1" pin="33" pinfunction="IO37_33" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1-IO38-Pad34)" class="Default">
+      <node ref="U1" pin="34" pinfunction="IO38_34" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1-IO39-Pad35)" class="Default">
+      <node ref="U1" pin="35" pinfunction="IO39_35" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U1-IO40-Pad36)" class="Default">
+      <node ref="U1" pin="36" pinfunction="IO40_36" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1-IO41-Pad37)" class="Default">
+      <node ref="U1" pin="37" pinfunction="IO41_37" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U1-IO42-Pad38)" class="Default">
+      <node ref="U1" pin="38" pinfunction="IO42_38" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U1-IO45-Pad41)" class="Default">
+      <node ref="U1" pin="41" pinfunction="IO45_41" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U1-IO46-Pad44)" class="Default">
+      <node ref="U1" pin="44" pinfunction="IO46_44" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1-IO47-Pad27)" class="Default">
+      <node ref="U1" pin="27" pinfunction="IO47_27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1-IO48-Pad30)" class="Default">
+      <node ref="U1" pin="30" pinfunction="IO48_30" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U3-Pin_3-Pad3)" class="Default">
+      <node ref="U3" pin="3" pinfunction="Pin_3_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U4-Pin_3-Pad3)" class="Default">
+      <node ref="U4" pin="3" pinfunction="Pin_3_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U4-Pin_4-Pad4)" class="Default">
+      <node ref="U4" pin="4" pinfunction="Pin_4_4" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

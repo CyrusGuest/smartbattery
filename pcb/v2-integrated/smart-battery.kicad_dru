@@ -1,0 +1,19 @@
+(version 1)
+(rule "u6_fine_pitch"
+  (condition "A.memberOfFootprint('U6') || B.memberOfFootprint('U6')")
+  (constraint clearance (min 0.15mm)))
+(rule "j1_fine_pitch"
+  (condition "A.memberOfFootprint('J1') || B.memberOfFootprint('J1')")
+  (constraint clearance (min 0.15mm)))
+(rule "d2_fine_pitch"
+  (condition "A.memberOfFootprint('D2') || B.memberOfFootprint('D2')")
+  (constraint clearance (min 0.15mm)))
+(rule "j3_edge_exempt"
+  (condition "A.memberOfFootprint('J3') || B.memberOfFootprint('J3')")
+  (constraint edge_clearance (min 0.1mm)))
+(rule "j3_edge_exempt2"
+  (condition "A.Reference == 'J3' || B.Reference == 'J3'")
+  (constraint edge_clearance (min 0.1mm)))
+(rule "u2_fine_pitch"
+  (condition "A.memberOfFootprint('U2') || B.memberOfFootprint('U2')")
+  (constraint clearance (min 0.15mm)))

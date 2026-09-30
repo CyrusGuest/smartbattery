@@ -4,9 +4,12 @@
     "1. git clone https://github.com/mixelpixx/KiCAD-MCP-Server somewhere (e.g. ~/programming/_tools/kicad-mcp).",
     "2. cd into it: npm install && npm run build",
     "3. brew install --cask kicad (KiCad 9 or 10).",
-    "4. Replace the paths below with your machine's actual paths.",
-    "5. cp .mcp.json.example .mcp.json",
-    "6. Restart Claude Code; approve the project-scoped MCP server when prompted."
+    "4. Install the server's Python deps into a side directory using KiCad's bundled Python (so they live with the tool, not inside the KiCad app bundle):",
+    "     /Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/bin/pip3 install --target ~/programming/_tools/kicad-mcp/.venv-site -r ~/programming/_tools/kicad-mcp/requirements.txt",
+    "   Then prepend that path to PYTHONPATH in the env block below (colon-separated, before the KiCad site-packages path).",
+    "5. Replace the paths below with your machine's actual paths.",
+    "6. cp .mcp.json.example .mcp.json",
+    "7. Restart Claude Code; approve the project-scoped MCP server when prompted."
   ],
   "mcpServers": {
     "kicad": {
@@ -14,7 +17,7 @@
       "args": ["/ABSOLUTE/PATH/TO/kicad-mcp/dist/index.js"],
       "env": {
         "KICAD_PYTHON": "/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/bin/python3",
-        "PYTHONPATH": "/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages",
+        "PYTHONPATH": "/ABSOLUTE/PATH/TO/kicad-mcp/.venv-site:/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages",
         "LOG_LEVEL": "info"
       }
     }

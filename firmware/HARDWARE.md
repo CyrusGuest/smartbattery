@@ -1,6 +1,17 @@
 # Smart Battery — Hardware Wiring
 
-Reconstructed from `firmware/smartbattery.ino`. The firmware is the only authoritative source — no PCB / KiCad / schematic files exist.
+Two PCB generations targeted by the firmware:
+
+- **v1 carrier** (`pcb/v1-carrier/`) — original ESP32 dev-board socket prototype. Uses the GPIO numbers in the table below as written.
+- **v2 integrated** (`pcb/v2-integrated/`) — production target with ESP32-S3-MINI-1 soldered down. **Requires four `#define` updates** to the firmware because the S3 silicon doesn't expose GPIOs 22, 23, 27 (chip-level difference vs classic ESP32):
+  - `PIN_I2C_SDA: 21 → 8`
+  - `PIN_I2C_SCL: 22 → 9`
+  - `PIN_OLED_MOSI: 23 → 11`
+  - `PIN_COIL_PWM: 27 → 6`
+  - `PIN_FIRE`, `PIN_OLED_CS`, `PIN_OLED_RST`, `PIN_OLED_DC`, `PIN_OLED_CLK` (4, 5, 16, 17, 18) stay the same.
+  - Compile-time switch via build flag (e.g. `BOARD_V2`) is the recommended way to keep one source tree supporting both boards during the v1 → v2 transition.
+
+ESP32-S3 USB programming uses the chip's native USB-Serial/JTAG controller (no external USB-UART chip on v2); flashing over USB-C works without auto-reset transistors. EN/IO0 can be probed via the 5-pin DEBUG pad row on v2 if anything ever gets wedged.
 
 ## Block diagram
 

@@ -17,7 +17,8 @@
       "bundleIdentifier": "com.smartbattery.app",
       "infoPlist": {
         "NSBluetoothAlwaysUsageDescription": "This app uses Bluetooth to connect to your Smart Battery device",
-        "NSBluetoothPeripheralUsageDescription": "This app uses Bluetooth to connect to your Smart Battery device"
+        "NSBluetoothPeripheralUsageDescription": "This app uses Bluetooth to connect to your Smart Battery device",
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
@@ -40,12 +41,20 @@
         "react-native-ble-plx",
         {
           "isBackgroundEnabled": false,
-          "modes": ["peripheral", "central"]
+          "modes": [
+            "peripheral",
+            "central"
+          ]
         }
       ]
     ],
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "199e077f-b883-4ca0-a7c2-ce2ccb55f32c"
+      }
     }
   }
 }
