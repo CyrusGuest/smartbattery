@@ -52,3 +52,6 @@ yarn-error.*
 pcb/v2-integrated/smart-battery-backups/
 pcb/**/*.kicad_pcb.backup-*
 .claude/
+pcb/**/.history/
+pcb/**/*.lck
+pcb/**/~*.lck
